@@ -28,9 +28,30 @@ public class CompetitorDTO {
     
     private String country;
     
+    private Vehicle vehicle;
+    
+    private Producto producto;
+
+    public Producto getProducto() {
+        return producto;
+    }
+
+    public void setProducto(Producto producto) {
+        this.producto = producto;
+    }
+
+    
     
     public CompetitorDTO(){
         
+    }
+
+    public Vehicle getVehicle() {
+        return vehicle;
+    }
+
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
     }
 
     public String getName() {
